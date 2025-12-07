@@ -1,0 +1,97 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    font-family:ProductSans;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+body{
+    background-color:black;
+    overflow:hidden;
+}
+#navigation_bar_container{
+    width:70vw;
+    height:5vh;
+    position:absolute;
+    margin-left:55vw;
+    top:1.5vh;
+}
+#navigation_bar_list{
+    display:flex;
+    font-size:2em;
+    color:white;
+    font-weight:bold;
+    list-style-type: none;
+}
+#portfolio_list_item{
+    font-size:4vw;
+    color:orange;
+    text-shadow:0px 0px 10px red,0px 0px 20px red;
+    margin-left:2vw;
+}
+.navigation_bar_list_items{
+    margin-right:2vw;
+}
+#portfolio_information{
+    width:100vw;
+    height:100vh;
+}
+#image_container{
+    width:25vw;
+    height:25vw;
+    border-radius:50%;
+    position:relative;
+    background-image: url(../../assets/images/rishu1.jpeg);
+    background-size:100% 100%;
+    border:5px solid orange;
+    background-position:center;
+    bottom:60vh;
+    left:66vw;
+}
+#greetings_information{
+    width:60vw;
+    height:70vh;
+    margin-left:2vw;
+    margin-top:2vh;
+}
+#greetings{
+    font-size:4vw;
+    color:white;
+    position:relative;
+    top:20vh;
+    left:3vw;
+}
+#name{
+    color:orange;
+    font-size:4vw;
+    position:relative;
+    margin-left:15vw;
+    margin-top:10vh;
+    text-shadow: 0px 0px 5px red,0px 0px 10px red;
+}
+#full_stack{
+    font-size:3vw;
+    margin-left:3vw;
+    color:white;
+}
+#paragraph{
+    font-size:1.5vw;
+    color:white;
+    margin-left:3vw;
+    margin-top:2vh;
+}
+#icons_container{
+    width:40vw;
+    height:15vh;
+    margin-left:3vw;
+    margin-top:9vh;
+}
+#github_icon,#linkedin_icon,#twitter_icon,#mail_icon{
+    font-size:5vw;
+    background-color:white;
+    margin-right:2vw;
+    border-radius:10px;
+}
